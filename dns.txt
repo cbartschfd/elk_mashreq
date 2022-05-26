@@ -1,0 +1,71 @@
+5/26/2022 8:29:24 PM 0600 PACKET 000000000353B320 UDP Snd 127.0.0.1 bed9 R Q [0281 D SERVFAIL] A (2)41(3)133(2)87(2)40(7)in-addr(4)arpa(0)
+UDP response info at 000000000353B320
+Socket = 340
+Remote addr 127.0.0.1, port 52712
+Time Query=4977209, Queued=0, Expire=0
+Buf length = 0x0fa0 (4000)
+Msg length = 0x002b (43)
+Message:
+XID 0xbed9
+Flags 0x8102
+QR 1 (RESPONSE)
+OPCODE 0 (QUERY)
+AA 0
+TC 0
+RD 1
+RA 0
+Z 0
+CD 0
+AD 0
+RCODE 2 (SERVFAIL)
+QCOUNT 1
+ACOUNT 0
+NSCOUNT 0
+ARCOUNT 0
+QUESTION SECTION:
+Offset = 0x000c, RR count = 0
+Name "(2)41(3)133(2)87(2)40(7)in-addr(4)arpa(0)"
+QTYPE A (1)
+QCLASS 1
+ANSWER SECTION:
+empty
+AUTHORITY SECTION:
+empty
+ADDITIONAL SECTION:
+empty
+
+5/26/2022 8:29:24 PM 0600 PACKET 0000000002BDD750 UDP Rcv 127.0.0.1 d42e Q [0001 D NOERROR] A (3)217(2)68(3)105(2)13(7)in-addr(4)arpa(0)
+UDP question info at 0000000002BDD750
+Socket = 340
+Remote addr 127.0.0.1, port 53454
+Time Query=4977209, Queued=0, Expire=0
+Buf length = 0x0fa0 (4000)
+Msg length = 0x002c (44)
+Message:
+XID 0xd42e
+Flags 0x0100
+QR 0 (QUESTION)
+OPCODE 0 (QUERY)
+AA 0
+TC 0
+RD 1
+RA 0
+Z 0
+CD 0
+AD 0
+RCODE 0 (NOERROR)
+QCOUNT 1
+ACOUNT 0
+NSCOUNT 0
+ARCOUNT 0
+QUESTION SECTION:
+Offset = 0x000c, RR count = 0
+Name "(3)217(2)68(3)105(2)13(7)in-addr(4)arpa(0)"
+QTYPE A (1)
+QCLASS 1
+ANSWER SECTION:
+empty
+AUTHORITY SECTION:
+empty
+ADDITIONAL SECTION:
+empty
